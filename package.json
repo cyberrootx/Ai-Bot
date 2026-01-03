@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
